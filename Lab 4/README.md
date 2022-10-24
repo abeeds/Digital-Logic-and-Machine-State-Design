@@ -8,6 +8,9 @@ Write the Verilog Module for a 3-input decoder using:
 
 (3) Conditional operators
 
+![alt text](https://i.imgur.com/NTerJ2P.png)
+
+
 # Part 2
 
 Write the Verilog Module for a 4-bit Counter (using a behavioral Verilog description) that:
