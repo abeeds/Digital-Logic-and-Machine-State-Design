@@ -3,8 +3,13 @@
 Write the Verilog Module for a 3-input decoder using:
 
 (1) primitive instantiations 
-
 (2) Continuous assignment statements and 
-
 (3) Conditional operators
 
+# Part 2
+
+Write the Verilog Module for a 4-bit Counter (using a behavioral Verilog description) that:
+
+(1) Counts from 0 to 15 and then loops back to 0 - updating at each positive edge of the Clock signal
+(2) Increments forward or backward with each positive edge of the Clockgiven a control signal ‘F’ 
+(3) The Counter in (2) programmable to increment forward or backward with only odd or even numbers using the control bit ‘P’
