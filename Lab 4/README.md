@@ -1,4 +1,4 @@
-Part 1
+Part 1 \n
 Write the Verilog Module for a 3-input decoder using 
 (1) primitive instantiations 
 (2) Continuous assignment statements and 
