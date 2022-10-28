@@ -6,6 +6,8 @@ module CounterC_tb( );
     reg clk, F, P;
     wire [3:0] out_count;
     
+    // uncomment corresponding dut when simulating it
+    
     CounterC ABC (.clk(clk), .F(F), .P(P), .out_count(out_count));
     //lab_4_counter dut (.clk(clk), .out(out_count));
     //lab_4_controlF dut (.clk(clk), .F(F), .out(out_count));
