@@ -2,7 +2,7 @@
 // testing cases from lab 5
 
 
-module tb5( );
+module tb( );
     reg f;
     reg [1:0] s;
     wire a, b, c, d;
