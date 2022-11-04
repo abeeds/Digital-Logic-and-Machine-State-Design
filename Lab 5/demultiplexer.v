@@ -6,7 +6,7 @@
 // 4 outputs.
 
 
-module dem_1(
+module demultiplexer(
     input f, 
     input [1:0] s,
     output reg a, b, c, d 
