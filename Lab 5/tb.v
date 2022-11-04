@@ -7,7 +7,7 @@ module tb( );
     reg [1:0] s;
     wire a, b, c, d;
     
-    dem_1 dut1 (.a(a), .b(b), .c(c), .d(d), .s(s), .f(f));
+    demultiplexer dut1 (.a(a), .b(b), .c(c), .d(d), .s(s), .f(f));
 
     initial begin
         f <= 0;
