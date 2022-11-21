@@ -15,31 +15,31 @@ module demultiplexer(
     always @(f, s) begin
         case (s) 
             2'b00: begin
-            a <= f;
-            b <= 0;
-            c <= 0;
-            d <= 0;
+                a <= f;
+                b <= 0;
+                c <= 0;
+                d <= 0;
             end
             
             2'b01:begin
-            a <= 0;
-            b <= f;
-            c <= 0;
-            d <= 0;
+                a <= 0;
+                b <= f;
+                c <= 0;
+                d <= 0;
             end
             
             2'b10:begin
-            a <= 0;
-            b <= 0;
-            c <= f;
-            d <= 0;
+                a <= 0;
+                b <= 0;
+                c <= f;
+                d <= 0;
             end
             
             2'b11:begin
-            a <= 0;
-            b <= 0;
-            c <= 0;
-            d <= f;
+                a <= 0;
+                b <= 0;
+                c <= 0;
+                d <= f;
             end
         endcase  
     end
